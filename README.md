@@ -9,6 +9,7 @@ Yet another simple message (YES) parser for Erlang.
 ## Message Format
 
 Messages consist of
+
 1. Name: Consist of an arbitrary number of characters.
 Following characters cannot be used in a name: `;`, `\r`, `\n`.
 2. (Optional) payload size and payload.
