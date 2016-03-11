@@ -29,6 +29,11 @@ Following characters cannot be used in a name: `;`, `\r`, `\n`.
 
 ## Usage
 
+**yes_msg** is available on hex.pm. If you use rebar3, just add the
+following in your `rebar.config`:
+
+    {deps, [yes_msg]}.
+
 Encode an atom message:
 
 ```erlang
